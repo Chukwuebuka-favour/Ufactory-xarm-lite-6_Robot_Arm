@@ -25,7 +25,7 @@ sudo apt install ros-jazzy-urdf-tutorial
 Clone this repository into your ROS 2 workspace(Very important, won't work without it):
 
 ```bash
-git clone (the repo)
+git clone git@github.com:Chukwuebuka-favour/Ufactory-xarm-lite-6_Robot_Arm.git
 
 ```
 
@@ -63,4 +63,5 @@ Use the command below to open the UF850 robot in RViz2:
 
 ```bash
 ros2 launch urdf_tutorial display.launch.py model:=$PWD/arm_description/urdf/arm.urdf
+
 ```
